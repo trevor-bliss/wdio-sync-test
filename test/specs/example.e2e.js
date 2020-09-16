@@ -18,8 +18,8 @@ describe('My Login application', () => {
         console.log('wrapper: ', wrapper);
         wrapper.waitForExist();
 
-        // with `await wrapper.waitForExist();` header is an Promise instead of an Element
-        // without, it's an Element as expected
+        // with `await el.waitForExist();` in getWrapperAsync, header is a
+        // Promise instead of an Element. Without, it's an Element as expected
         const header = wrapper.shadow$('app-header');
         console.log('header: ', header);
         header.waitForExist();
