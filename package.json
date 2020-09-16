@@ -5,6 +5,9 @@
   "repository": "git@github.com:trevor-bliss/wdio-sync-test.git",
   "author": "Trevor Bliss <tbliss@salesforce.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
   "devDependencies": {
     "@wdio/cli": "^6.5.0",
     "@wdio/jasmine-framework": "^6.5.0",
